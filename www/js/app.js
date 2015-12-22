@@ -33,10 +33,10 @@ angular
     templateUrl: 'templates/app.html'
   })
 
-  .state('tab.userlist', {
+  .state('app.userlist', {
     url: '/userlist',
     views: {
-      'tab-chats': {
+      'tab-userlist': {
         templateUrl: 'templates/userlist.html',
         controller: 'UserListCtrl'
       }
