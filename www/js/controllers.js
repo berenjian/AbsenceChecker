@@ -3,5 +3,11 @@ angular
 
 .controller('UserListCtrl', function($scope, UserStrorage) {
   $scope.userList = UserStrorage.getUserList();
+
+  $scope.enter = function (user){
+    var date = new Date();
+    user.TimeString = date.toLocaleTimeString();
+
+  }
 })
 ;

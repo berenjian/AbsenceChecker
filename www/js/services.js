@@ -22,7 +22,7 @@ angular
   userList = [
     {
       id: 0,
-      name: 'Ben Sparrow',
+      name: 'Ali Mihandoost',
       lastText: 'You on your way?',
       face: 'img/ben.png'
     },
