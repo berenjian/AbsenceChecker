@@ -1,3 +1,5 @@
+
+
 // Ionic Starter App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
@@ -17,6 +19,7 @@ angular
       cordova.plugins.Keyboard.disableScroll(true);
 
     }
+
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
@@ -30,7 +33,7 @@ angular
   .state('app', {
     url: '/app',
     abstract: true,
-    templateUrl: 'templates/app.html'
+    templateUrl: 'templates/app.html',
   })
 
   .state('app.userlist', {
@@ -38,9 +41,9 @@ angular
     views: {
       'tab-userlist': {
         templateUrl: 'templates/userlist.html',
-        controller: 'UserListCtrl'
-      }
-    }
+        controller: 'UserListCtrl',
+      },
+    },
   })
   ;
 
