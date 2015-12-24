@@ -1,15 +1,15 @@
-<ion-view view-title="User List">
+<ion-view view-title="User List" class="positive">
   <ion-content>
     <ion-list>
 
       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="user in userList" type="item-text-wrap" ng-click="enter(user)" ng-class="{'user-entered': user.TimeString}">
         <img ng-src="{{user.face}}" />
         <h2 ng-bind="user.name"></h2>
-        <p ng-show="user.TimeString" ng-bind-template="Enter : {{user.TimeString}}"></p>
+        <!-- chera ng-show va ng-bind ? --><p ng-show="user.TimeString" ng-bind-template="Enter : {{user.TimeString}}"></p>
         <i class="icon ion-chevron-right icon-accessory"></i>
 
-        <ion-option-button class="button-assertive">
-          Test
+        <ion-option-button class="button-assertive" ng-click="clear(user)">
+          Clear Time
         </ion-option-button>
       </ion-item>
     </ion-list>

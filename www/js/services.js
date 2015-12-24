@@ -23,31 +23,26 @@ angular
     {
       id: 0,
       name: 'Ali Mihandoost',
-      lastText: 'You on your way?',
       face: 'img/ben.png'
     },
     {
       id: 1,
-      name: 'Max Lynx',
-      lastText: 'Hey, it\'s me',
+      name: 'Amirmahdi Berenjian',
       face: 'img/max.png'
     },
     {
       id: 2,
-      name: 'Adam Bradleyson',
-      lastText: 'I should buy a boat',
+      name: 'Hossein Behkamal',
       face: 'img/adam.jpg'
     },
     {
       id: 3,
-      name: 'Perry Governor',
-      lastText: 'Look at my mukluks!',
+      name: 'Mohammad Najafzade',
       face: 'img/perry.png'
     },
     {
       id: 4,
-      name: 'Mike Harrington',
-      lastText: 'This is wicked good ice cream.',
+      name: 'Ghasem Sadeghi',
       face: 'img/mike.png'
     }
   ]

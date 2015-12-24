@@ -9,5 +9,9 @@ angular
     user.TimeString = date.toLocaleTimeString();
 
   }
+
+  $scope.clear = function (user){
+    user.TimeString = '';
+  }
 })
 ;
